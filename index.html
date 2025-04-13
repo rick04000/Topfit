@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportcentrum TOPFIT - Echt Trainen, Echte resultaten</title>
+    <meta name="description" content="Sportcentrum TOPFIT biedt fitness, powerlifting, boksen en meer. Echt trainen, echte resultaten.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS zal later worden toegevoegd -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <span class="loader"></span>
+            <span class="topfit-text">TOP<span class="red-text">FIT</span></span>
+        </div>
+    </div>
+
+    <!-- Header met navigatie -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">Sportcentrum</span>
+                        <span class="logo-highlight">TOP<span class="red-text">FIT</span></span>
+                    </a>
+                </div>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Informatie</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#about">Over Ons</a></li>
+                                <li><a href="#facilities">Faciliteiten</a></li>
+                                <li><a href="#faq">Veelgestelde Vragen</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Sporten</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#fitness">Fitness</a></li>
+                                <li><a href="#cardio">Cardio</a></li>
+                                <li><a href="#boxing">Boksen</a></li>
+                                <li><a href="#yoga">Yoga</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">Powerliften</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#powerlifting">Training</a></li>
+                                <li><a href="#sos-powerlifting">SOS Powerlifting</a></li>
+                                <li><a href="#competitions">Wedstrijden</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#schedule" class="nav-link">Rooster</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-cta">
+                    <a href="#trial" class="btn btn-primary">Gratis Proefles</a>
+                </div>
+                
+                <div class="nav-actions">
+                    <div class="search-toggle">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="search-container" id="searchContainer">
+                <form class="search-form">
+                    <input type="text" placeholder="Zoeken..." class="search-input">
+                    <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+                </form>
+                <button class="search-close"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hedd Sectie -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <img src="IMG\Asset 1.png"> </img>
+                <div class="overlay"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-tagline">Echt Trainen, Echte resultaten</div>
+                    <h1 class="hero-title">DIDO FITNESS<span class="highlight">€ 65,- PER 3 MAANDEN</span></h1>
+                    <div class="hero-cta">
+                        <a href="#signup" class="btn btn-primary btn-lg">
+                            <span>SCHRIJF NU GRATIS IN!</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#video" class="btn btn-outline video-btn">
+                            <i class="fas fa-play"></i>
+                            <span>Bekijk onze faciliteiten</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </span>
+            </div>
+        </section>
+
+        <!-- Teaser Stats -->
+        <section class="stats-teaser">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-counter">500+</div>
+                        <div class="stat-label">Tevreden leden</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="stat-counter">12+</div>
+                        <div class="stat-label">Sportactiviteiten</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-counter">15+</div>
+                        <div class="stat-label">Jaren ervaring</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="stat-counter">100%</div>
+                        <div class="stat-label">Toewijding</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Over Ons Sectie -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Wie wij zijn</span>
+                    <h2 class="section-title">Echt Trainen, Echte resultaten</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="about-image-container">
+                            <img src="IMG\3ok-1.jpg" alt="Sportcentrum TOPFIT Interieur" class="img-fluid">
+                            <div class="about-experience">
+                                <span class="about-years">15+</span>
+                                <span class="about-text">Jaren<br>Ervaring</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <h3>Sportcentrum waar passie en resultaat samenkomen</h3>
+                        <p>Bij Sportcentrum TOPFIT geloven we dat echte training tot echte resultaten leidt. Sinds onze oprichting hebben we ons toegewijd aan het creëren van een omgeving waar iedereen, van beginners tot professionals, hun sportieve doelen kan bereiken.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Professionele Begeleiding</h4>
+                                    <p>Ervaren trainers helpen je persoonlijke doelen te bereiken</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Moderne Faciliteiten</h4>
+                                    <p>Topapparatuur voor alle soorten training</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h4>Persoonlijke Aanpak</h4>
+                                    <p>Trainingsschema's afgestemd op jouw behoeften</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-cta">
+                            <a href="#contact" class="btn btn-primary">Neem Contact Op</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diensten Sectie -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Wat we aanbieden</span>
+                    <h2 class="section-title">Onze Sportmogelijkheden</h2>
+                    <div class="section-line"></div>
+                    <p class="section-description">Ontdek de diverse sportmogelijkheden bij Sportcentrum TOPFIT, afgestemd op jouw persoonlijke doelen en voorkeuren.</p>
+                </div>
+                
+                <div class="services-filters">
+                    <button class="service-filter active" data-filter="all">Alle</button>
+                    <button class="service-filter" data-filter="fitness">Fitness</button>
+                    <button class="service-filter" data-filter="cardio">Cardio</button>
+                    <button class="service-filter" data-filter="groep">Groepslessen</button>
+                    <button class="service-filter" data-filter="gevecht">Vechtsporten</button>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Virtuele cardio -->
+                    <div class="service-card" data-category="cardio">
+                        <div class="service-image">
+                            <img src="IMG\pro-YrYOk8UT-1536x1152.jpeg" alt="Virtuele cardio training">
+                            <div class="service-overlay">
+                                <a href="#virtual-cardio-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Virtuele cardio</h3>
+                            <p class="service-description">Virtuele cardio mogelijk met de NordicTrack Commercial S22i studio cycle</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Fitness & Powerlifting -->
+                    <div class="service-card" data-category="fitness">
+                        <div class="service-image">
+                            <img src="IMG\gym3.jpg" alt="Powerlifting training">
+                            <div class="service-overlay">
+                                <a href="#powerlifting-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Sportcentrum TOPFIT</h3>
+                            <p class="service-description">Fitnesscentrum met powerlifting, boksen, kickboksen, steps en yoga</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Boksen en Thaiboksen -->
+                    <div class="service-card" data-category="gevecht">
+                        <div class="service-image">
+                            <img src="IMG\okt-boksen-gaat-verder-zonder-publiek-vreemd-dat-toernooi-doorgaat.jpg" alt="Boksen en Thaiboksen">
+                            <div class="service-overlay">
+                                <a href="#boxing-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Boksen en Thaiboksen</h3>
+                            <p class="service-description">Boksen en Thaiboksen, ook kickboksen voor kinderen</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Steps -->
+                    <div class="service-card" data-category="groep fitness">
+                        <div class="service-image">
+                            <img src="IMG\step23jpg-1.jpg" alt="Steps lessen">
+                            <div class="service-overlay">
+                                <a href="#steps-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Steps</h3>
+                            <p class="service-description">Dynamische steps lessen voor alle niveaus</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Yoga -->
+                    <div class="service-card" data-category="groep">
+                        <div class="service-image">
+                            <img src="IMG\zee.png" alt="Yoga lessen">
+                            <div class="service-overlay">
+                                <a href="#yoga-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Yoga</h3>
+                            <p class="service-description">Ontspannende en versterkende yoga sessies</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Kracht -->
+                    <div class="service-card" data-category="fitness">
+                        <div class="service-image">
+                            <img src="IMG\214738550_2141834612624916_9205982939691879281_n.jpg" alt="Krachttraining">
+                            <div class="service-overlay">
+                                <a href="#strength-modal" class="service-detail-btn">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Krachttraining</h3>
+                            <p class="service-description">Gerichte krachttraining met professionele begeleiding</p>
+                            <a href="#trial" class="service-link">Probeer het <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="services-cta">
+                    <p>Nieuwsgierig? Ontdek wat het beste bij jouw doelen past.</p>
+                    <a href="#trial" class="btn btn-primary">Boek een Gratis Proefles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Modal Templates (zullen via JS worden gekloond en gevuld) -->
+        <div class="service-modal-template">
+            <div class="service-modal-content">
+                <button class="modal-close"><i class="fas fa-times"></i></button>
+                <div class="modal-image">
+                    <img src="" alt="">
+                </div>
+                <div class="modal-body">
+                    <h3 class="modal-title"></h3>
+                    <div class="modal-description"></div>
+                    <div class="modal-features">
+                        <!-- Wordt dynamisch gevuld -->
+                    </div>
+                    <div class="modal-cta">
+                        <a href="#trial" class="btn btn-primary">Boek een Proefles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIDO Fitness Spotlight Sectie -->
+        <section id="dido-fitness" class="dido-section section-padding">
+            <div class="container">
+                <div class="dido-wrapper">
+                    <div class="dido-content">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">Speciale aanbieding</span>
+                            <h2 class="section-title">DIDO FITNESS</h2>
+                            <div class="section-line left-align"></div>
+                        </div>
+                        
+                        <div class="dido-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-euro-sign"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Slechts €65,- per 3 maanden</h3>
+                                    <p>Ongelooflijke waarde voor complete fitness toegang</p>
+                                </div>
+                            </div>
+                            
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Complete fitness ervaring</h3>
+                                    <p>Toegang tot alle fitness, cardio en krachttrainingsapparatuur</p>
+                                </div>
+                            </div>
+                            
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-unlock"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h3>Geen langdurig contract</h3>
+                                    <p>Flexibele lidmaatschapsoptie zonder langdurige verplichtingen</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="dido-checklist">
+                            <h3>Wat is inbegrepen:</h3>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Onbeperkte toegang tot fitnessruimte</li>
+                                <li><i class="fas fa-check"></i> Gebruik van cardio-apparatuur</li>
+                                <li><i class="fas fa-check"></i> Alle krachttrainingsfaciliteiten</li>
+                                <li><i class="fas fa-check"></i> Persoonlijk advies van trainers</li>
+                                <li><i class="fas fa-check"></i> Toegang tot kleedkamers en douches</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="dido-cta">
+                            <a href="#signup" class="btn btn-primary btn-lg">
+                                <span>SCHRIJF NU GRATIS IN!</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="dido-image">
+                        <div class="image-container">
+                            <img src="IMG\3ok-1.jpg" alt="DIDO Fitness bij TOPFIT" class="img-fluid">
+                            <div class="price-badge">
+                                <div class="price-inner">
+                                    <span class="price-amount">€65</span>
+                                    <span class="price-period">per 3 maanden</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prijzen Sectie -->
+        <section id="pricing" class="pricing-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Lidmaatschapsopties</span>
+                    <h2 class="section-title">Kies het plan dat bij je past</h2>
+                    <div class="section-line"></div>
+                    <p class="section-description">We bieden verschillende lidmaatschapsopties aan om aan jouw specifieke behoeften en budget te voldoen.</p>
+                </div>
+                
+                <div class="pricing-toggle">
+                    <span class="toggle-label active">Maandelijks</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricingToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label">Jaarlijks <span class="discount">Bespaar 15%</span></span>
+                </div>
+                
+                <div class="pricing-grid">
+                    <!-- Basis Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Basis Fitness</h3>
+                            <div class="pricing-price">
+                                <div class="price-monthly">
+                                    <span class="currency">€</span>
+                                    <span class="amount">29</span>
+                                    <span class="period">/maand</span>
+                                </div>
+                                <div class="price-yearly">
+                                    <span class="currency">€</span>
+                                    <span class="amount">297</span>
+                                    <span class="period">/jaar</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Toegang tot fitnessruimte</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Cardio-apparatuur</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Krachttrainingsapparatuur</span>
+                                </li>
+                                <li class="feature-item disabled">
+                                    <i class="fas fa-times"></i>
+                                    <span>Groepslessen</span>
+                                </li>
+                                <li class="feature-item disabled">
+                                    <i class="fas fa-times"></i>
+                                    <span>Persoonlijke begeleiding</span>
+                                </li>
+                                <li class="feature-item disabled">
+                                    <i class="fas fa-times"></i>
+                                    <span>Vechtsporten</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-footer">
+                            <a href="#signup" class="btn btn-outline">Kies dit plan</a>
+                        </div>
+                    </div>
+                    
+                    <!-- DIDO Plan -->
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Populair</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">DIDO Fitness</h3>
+                            <div class="pricing-price">
+                                <div class="price-monthly">
+                                    <span class="currency">€</span>
+                                    <span class="amount">21.67</span>
+                                    <span class="period">/maand</span>
+                                    <div class="price-note">€65 per 3 maanden</div>
+                                </div>
+                                <div class="price-yearly">
+                                    <span class="currency">€</span>
+                                    <span class="amount">221</span>
+                                    <span class="period">/jaar</span>
+                                    <div class="price-note">€65 per kwartaal</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Toegang tot fitnessruimte</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Cardio-apparatuur</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Krachttrainingsapparatuur</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Onbeperkte groepslessen</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Persoonlijke begeleiding</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Vechtsporten inbegrepen</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-footer">
+                            <a href="#signup" class="btn btn-outline">Kies dit plan</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-note">
+                    <p>Alle lidmaatschappen zijn inclusief toegang tot kleedkamers en douches. Inschrijfkosten bedragen €25 (eenmalig).</p>
+                    <p>Vraag naar onze speciale tarieven voor gezinnen, studenten en senioren.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Virtuele Tour Sectie -->
+        <section id="virtual-tour" class="tour-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Ontdek onze faciliteiten</span>
+                    <h2 class="section-title">Virtuele Tour</h2>
+                    <div class="section-line"></div>
+                    <p class="section-description">Bekijk onze moderne faciliteiten vanuit het comfort van je eigen huis met onze interactieve virtuele tour.</p>
+                </div>
+                
+                <div class="tour-container">
+                    <div class="tour-preview">
+                        <div class="tour-preview-inner">
+                            <iframe src="https://www.google.com/maps/embed?pb=!4v1744513017941!6m8!1m7!1sCAoSLEFGMVFpcE55b1lnRDQzRjhpdzI2cE1hT055MDdRRHVvallKODVZaXlURG1z!2m2!1d51.41966785882128!2d5.553252055277877!3f279.34!4f-1.5100000000000051!5f0.4730525559049661" width="100%" height="450" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            
+                            <div class="tour-controls">
+                                <div class="tour-control" data-tip="Draai links">
+                                    <i class="fas fa-arrow-left"></i>
+                                </div>
+                                <div class="tour-control" data-tip="Draai rechts">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="tour-control" data-tip="Inzoomen">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <div class="tour-control" data-tip="Uitzoomen">
+                                    <i class="fas fa-minus"></i>
+                                </div>
+                                <div class="tour-control" data-tip="Volledig scherm">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="facility-highlights">
+                    <div class="facility-item">
+                        <div class="facility-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h3>Fitnessruimte</h3>
+                        <p>Moderne apparatuur voor elke training</p>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <div class="facility-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Cardiozone</h3>
+                        <p>Nieuwste cardio-apparaten</p>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <div class="facility-icon">
+                            <i class="fas fa-fist-raised"></i>
+                        </div>
+                        <h3>Boksring</h3>
+                        <p>Professionele boksring en -zakken</p>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <div class="facility-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Groepszaal</h3>
+                        <p>Ruime zaal voor groepslessen</p>
+                    </div>
+                </div>
+                
+                <div class="streetview-link">
+                    <p>Bekijk ook onze <a href="#streetview">Google Street View tour</a> voor een blik vanaf buiten.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tijdlijn/Evenementen Sectie -->
+        <section id="timeline" class="timeline-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Blijf op de hoogte</span>
+                    <h2 class="section-title">Clubwedstrijden & Evenementen</h2>
+                    <div class="section-line"></div>
+                    <p class="section-description">Blijf up-to-date met onze komende evenementen, wedstrijden en speciale activiteiten</p>
+                </div>
+                
+                <div class="timeline-wrapper">
+                    <div class="timeline-header">
+                        <h3>Resultaten Clubwedstrijd 9-3-2025</h3>
+                        <p>Bekijk de prestaties van onze leden tijdens de laatste clubwedstrijd</p>
+                    </div>
+                    
+                    <div class="timeline-events">
+                        <div class="timeline-event">
+                            <div class="event-date">
+                                <span class="event-day">9</span>
+                                <span class="event-month">Maart</span>
+                            </div>
+                            <div class="event-content">
+                                <h4 class="event-title">Clubwedstrijd Powerlifting</h4>
+                                <div class="event-details">
+                                    <p>Onze recente clubwedstrijd was een groot succes met nieuwe persoonlijke records voor veel deelnemers!</p>
+                                    <div class="event-results">
+                                        <h5>Top Prestaties:</h5>
+                                        <ul>
+                                            <li>Jan de Vries - 220kg Squat (nieuw PR)</li>
+                                            <li>Lieke Jansen - 130kg Deadlift (nieuw PR)</li>
+                                            <li>Bram Willemsen - 150kg Bench Press</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#competition-results" class="event-link">Bekijk alle resultaten</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-event upcoming">
+                            <div class="event-date">
+                                <span class="event-day">15</span>
+                                <span class="event-month">Mei</span>
+                            </div>
+                            <div class="event-content">
+                                <h4 class="event-title">Volgende Clubwedstrijd</h4>
+                                <div class="event-details">
+                                    <p>Doe mee aan onze volgende clubwedstrijd! Open voor alle leden, ongeacht niveau.</p>
+                                    <div class="event-meta">
+                                        <span><i class="fas fa-clock"></i> 10:00 - 16:00</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Sportcentrum TOPFIT</span>
+                                    </div>
+                                    <div class="event-countdown" data-date="2025/05/15">
+                                        <div class="countdown-item">
+                                            <span class="count-number days">00</span>
+                                            <span class="count-text">Dagen</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="count-number hours">00</span>
+                                            <span class="count-text">Uren</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="count-number minutes">00</span>
+                                            <span class="count-text">Minuten</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="count-number seconds">00</span>
+                                            <span class="count-text">Seconden</span>
+                                        </div>
+                                    </div>
+                                    <a href="#register-competition" class="btn btn-sm btn-primary">Inschrijven</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-feed">
+                    <h3>Laatste Nieuws</h3>
+                    <div class="news-grid">
+                        <div class="news-card">
+                            <div class="news-image">
+                                <img src="IMG\IMG_20240125_141212023-rotated.jpg" alt="Nieuw trainingsrooster">
+                                <div class="news-date">
+                                    <span class="day">08</span>
+                                    <span class="month">APR</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <div class="news-meta">
+                                    <span><i class="fas fa-user"></i> Wim Bevers</span>
+                                </div>
+                                <h4 class="news-title">Nieuw Trainingsrooster Voorjaar 2025</h4>
+                                <p class="news-excerpt">Ontdek ons vernieuwde lesrooster met meer groepslessen en flexibele tijden.</p>
+                                <a href="#news-1" class="news-link">Lees meer <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="news-card">
+                            <div class="news-image">
+                                <img src="IMG\gym3.jpg" alt="Nieuwe apparatuur">
+                                <div class="news-date">
+                                    <span class="day">23</span>
+                                    <span class="month">MRT</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <div class="news-meta">
+                                    <span><i class="fas fa-user"></i> Wim Bevers</span>
+                                </div>
+                                <h4 class="news-title">Nieuwe Fitnessapparatuur Geïnstalleerd</h4>
+                                <p class="news-excerpt">We hebben geïnvesteerd in de nieuwste fitnessapparatuur voor onze leden.</p>
+                                <a href="#news-2" class="news-link">Lees meer <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="news-pagination">
+                        <span class="current">1</span>
+                        <a href="#page-2" class="page-number">2</a>
+                        <a href="#page-3" class="page-number">3</a>
+                        <a href="#page-2" class="next-page">Volgende <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Sectie -->
+        <section id="testimonials" class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Wat onze leden zeggen</span>
+                    <h2 class="section-title">Succesverhalen</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="testimonials-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-icon">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <p class="testimonial-text">Bij TOPFIT heb ik eindelijk mijn draai gevonden. De persoonlijke begeleiding en positieve sfeer zorgen ervoor dat ik elke training met plezier volbreng. In 6 maanden heb ik resultaten behaald die ik nooit voor mogelijk had gehouden!</p>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img src="img/testimonial-1.jpg" alt="Lisa de Jong">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author-name">Lisa de Jong</h4>
+                                            <p class="author-title">Lid sinds 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-icon">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <p class="testimonial-text">Het powerlifting programma bij TOPFIT heeft mijn kracht naar een heel nieuw niveau gebracht. De trainers weten precies hoe ze je moeten pushen op een veilige manier. Mijn PR's zijn door het dak gegaan!</p>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img src="img/testimonial-2.jpg" alt="Mark Peters">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author-name">Mark Peters</h4>
+                                            <p class="author-title">Powerlifting deelnemer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-icon">
+                                            <i class="fas fa-quote-left"></i>
+                                        </div>
+                                        <p class="testimonial-text">Als moeder van twee vind ik bij TOPFIT precies wat ik nodig heb: flexibele trainingsuren, vriendelijke sfeer en betaalbare prijzen. De DIDO fitness optie past perfect bij mijn budget en leefstijl!</p>
+                                        <div class="testimonial-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img src="img/testimonial-3.jpg" alt="Femke Verhoeven">
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author-name">Femke Verhoeven</h4>
+                                            <p class="author-title">DIDO Fitness lid</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Navigatie knoppen -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- Paginatie -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <div class="testimonials-cta">
+                    <p>Klaar om je eigen succesverhaal te starten?</p>
+                    <a href="#trial" class="btn btn-primary">Begin vandaag nog</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inschrijvingsformulier Sectie -->
+        <section id="signup" class="signup-section section-padding">
+            <div class="container">
+                <div class="signup-wrapper">
+                    <div class="signup-content">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">Word lid van TOPFIT</span>
+                            <h2 class="section-title">Schrijf je nu gratis in!</h2>
+                            <div class="section-line left-align"></div>
+                        </div>
+                        
+                        <div class="signup-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p>Gratis proefles voor nieuwe leden</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p>Persoonlijk advies van onze trainers</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p>Flexibele contractopties</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p>DIDO Fitness voor slechts €65 per 3 maanden</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="signup-form-container">
+                        <form id="signupForm" class="signup-form">
+                            <div class="form-header">
+                                <h3>Aanmeldingsformulier</h3>
+                                <p>Vul je gegevens in en we nemen snel contact met je op</p>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="fullName">Volledige naam</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Jouw naam" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mailadres</label>
+                                <input type="email" id="email" name="email" placeholder="jouw@email.nl" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telefoonnummer</label>
+                                <input type="tel" id="phone" name="phone" placeholder="06 12345678">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Ik ben geïnteresseerd in:</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interests[]" value="fitness">
+                                        <span class="checkbox-custom"></span>
+                                        Fitness & Cardio
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interests[]" value="powerlifting">
+                                        <span class="checkbox-custom"></span>
+                                        Powerlifting
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interests[]" value="boxing">
+                                        <span class="checkbox-custom"></span>
+                                        Boksen/Thaiboksen
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interests[]" value="yoga">
+                                        <span class="checkbox-custom"></span>
+                                        Yoga/Steps
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="membership">Lidmaatschap</label>
+                                <select id="membership" name="membership">
+                                    <option value="" disabled selected>Kies een lidmaatschap</option>
+                                    <option value="dido">DIDO Fitness - €65 per 3 maanden</option>
+                                    <option value="basic">Basis - €29 per maand</option>
+                                    <option value="premium">Premium - €49 per maand</option>
+                                    <option value="not-sure">Ik weet het nog niet</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Bericht (optioneel)</label>
+                                <textarea id="message" name="message" placeholder="Laat ons weten als je specifieke vragen hebt"></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-single">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="privacy" required>
+                                    <span class="checkbox-custom"></span>
+                                    Ik ga akkoord met de <a href="#privacy">privacyvoorwaarden</a>
+                                </label>
+                            </div>
+                            
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                                    <span>Schrijf Nu Gratis In</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Sectie -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Neem contact op</span>
+                    <h2 class="section-title">Vind ons</h2>
+                    <div class="section-line"></div>
+                    <p class="section-description">Heb je vragen of wil je meer informatie? Neem gerust contact met ons op!</p>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Bezoek ons</h3>
+                                <p>Parallelweg 11a<br>5664AC Geldrop</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Bel ons</h3>
+                                <p>
+                                    <a href="tel:+31201234567">040 - 280 00 41</a><br>
+                                    <span class="text-muted">Ma-Vr: 08:00 - 22:00</span><br>
+                                    <span class="text-muted">Za-Zo: 09:00 - 20:00</span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>E-mail ons</h3>
+                                <p>
+                                    <a href="mailto:info@topfit.nl">info@topfit.nl</a><br>
+                                    <span class="text-muted">We reageren binnen 24 uur</span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="opening-hours">
+                            <h3>Openingstijden</h3>
+                            <ul class="hours-list">
+                                <li>
+                                    <span class="day">Maandag - Vrijdag</span>
+                                    <span class="hours">06:00 - 23:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Zaterdag</span>
+                                    <span class="hours">08:00 - 22:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Zondag</span>
+                                    <span class="hours">09:00 - 18:00</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="social-connect">
+                            <h3>Volg ons</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9739.458184845017!2d4.895766623823807!3d52.37018082857699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c23991522d%3A0x28ba8c4a94dc3ed2!2sAmsterdam%20Centraal!5e0!3m2!1sen!2snl!4v1681407049711!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="map-overlay">
+                                <button class="btn btn-primary map-activate">Kaart weergeven</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="contact-form-header">
+                        <h3>Stuur ons een bericht</h3>
+                        <p>Vul het formulier in en we nemen zo snel mogelijk contact met je op.</p>
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Naam</label>
+                                <input type="text" id="contactName" name="contactName" placeholder="Jouw naam" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">E-mail</label>
+                                <input type="email" id="contactEmail" name="contactEmail" placeholder="jouw@email.nl" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactSubject">Onderwerp</label>
+                            <input type="text" id="contactSubject" name="contactSubject" placeholder="Onderwerp van je bericht">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Bericht</label>
+                            <textarea id="contactMessage" name="contactMessage" placeholder="Schrijf je bericht hier..." required></textarea>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">
+                                <span>Verstuur bericht</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-- De rest van de secties volgen in andere artifacts om binnen de limieten te blijven -->
+
+    <!-- JS zal later worden toegevoegd -->
+    <script src="main.js"></script>
+</body>
+</html>
